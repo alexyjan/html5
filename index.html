@@ -1,16 +1,27 @@
 <html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tmavý podklad</title>
+    <style>
+        /* Resetovanie okrajov pre celú stránku */
+        html, body {
+            margin: 0;
+            padding: 0;
+            /* Nastavenie farby podkladu pre celé telo stránky */
+            background-color: #02040d;
+            /* Zabezpečí, že farba podkladu pokryje celú výšku okna prehliadača */
+            min-height: 100vh; 
+        }
 
-<style>
-/* Resetovanie okrajov pre celú stránku */
-html, body {
-margin: 0; 
-padding: 0;
- }
-</style>
-
-
-
- 
+        /* Ak chcete zarovnať iframe na stred (voliteľné) */
+        body {
+            display: flex;
+            justify-content: center; /* Horizontálne centrovanie */
+            align-items: center; /* Vertikálne centrovanie */
+        }
+    </style>
+</head>
+<body>
  
  <iframe 
 src="/html5/Banners/Koleso_160x600/index.html" 
@@ -592,6 +603,6 @@ scrolling="no"
 
 
 
- 
+</body>
  
 </html>
